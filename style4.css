@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdfbfb;
+    background-image: url(fut1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #fff;
+    background: #111;
+    padding: 10px 25px;
+    border-radius: 8px;
+    box-shadow: 0.5rem 1rem 3rem hsl(0,0,0,0.3);
+    position: absolute;
+    left: 1300px;
+    top: 600px;
+}
+
+h1{
+    position: absolute;
+    left: 600px;
+    top: 300px;
+}
+
+h2{
+    position: absolute;
+    left: 700px;
+    top: 350px;
+}
+
+h3{
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+
+h4{
+    position: relative;
+    left: 150px;
+    top: 80px; 
+}
+
+img{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 200px;
+    top: 180px;
+    margin: 0;
+    padding: 0;
+}
